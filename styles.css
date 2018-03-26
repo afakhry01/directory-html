@@ -25,7 +25,7 @@ body, main, div {
 }
 
 .main__header {
-  background-color: #123456;
+  background-color: #4285f4;
   text-align: center;
   line-height: 1.5px;
   width: 100%;
@@ -82,9 +82,14 @@ body, main, div {
 }
 
 .contact__category__p {
-  background-color: #d4efd4;
+  color: #fff;
   padding: 10px;
 }
+
+.friend { background-color: #5bc0de; }
+.work { background-color: #428bca; }
+.college { background-color: #5cb85c; }
+.family { background-color: #d9534f; }
 
 .contact__name {
   width: 33.33%;
@@ -93,7 +98,19 @@ body, main, div {
 
 .contact__delete {
   width: 33.33%;
-  text-align: right;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+.contact__delete__p {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.contact__delete__p:hover {
+  background-color: #700000;
 }
 
 .main__add {
@@ -133,7 +150,7 @@ body, main, div {
 }
 
 .add__button__button {
-  background-color: #123456;
+  background-color: #4285f4;
   border: none;
   color: white;
   padding: 15px 32px;
